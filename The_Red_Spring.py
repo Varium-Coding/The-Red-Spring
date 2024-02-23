@@ -791,7 +791,7 @@ def townhall_outer():
     typewriter_effect("")
     typewriter_effect("1. Head to the schoolhouse")
     typewriter_effect("2. Visit the Baker")
-    townhallouterchek == True
+    townhallouterchek = True
     choice = input("Enter your choice (1/2): ")
     while True:
         if choice == "1":
@@ -799,7 +799,7 @@ def townhall_outer():
             if teachertalked == True:
                 teacher2()
             else:
-                go_to_west_path3()
+                go_to_west_path4()
             # link to teacher1
             break
         elif choice == "2":
